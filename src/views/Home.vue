@@ -29,9 +29,9 @@
       >
         Articles for you
       </h1>
-      <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 px-24 pb-10">
+      <div class="grid grid-flow-row md:grid-cols-3 lg:grid-cols-4 px-24 pb-10">
         <div
-          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2 lg:my-5"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice.jpg" alt="" />
@@ -72,7 +72,7 @@
           </div>
         </div>
         <div
-          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2 lg:my-5"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice2.jpg" alt="" />
@@ -113,7 +113,7 @@
           </div>
         </div>
         <div
-          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2 lg:my-5"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice.jpg" alt="" />
@@ -154,7 +154,7 @@
           </div>
         </div>
         <div
-          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2 lg:my-5"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice3.jpg" alt="" />
@@ -195,7 +195,7 @@
           </div>
         </div>
         <div
-          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2 lg:my-5"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice5.jpg" alt="" />
