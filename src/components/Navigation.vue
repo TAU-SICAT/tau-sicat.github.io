@@ -1,14 +1,6 @@
 <template>
   <nav
-    class="
-      bg-white
-      border-gray-200
-      px-2
-      sm:px-4
-      py-2.5
-      rounded
-      dark:bg-gray-800
-    "
+    class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800"
   >
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a href="#" class="flex items-center">
@@ -18,31 +10,14 @@
           alt="Flowbite Logo"
         />
         <span
-          class="
-            self-center
-            text-xl
-            font-semibold
-            whitespace-nowrap
-            dark:text-white
-          "
+          class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
           >SICAT</span
         >
       </a>
       <button
         data-collapse-toggle="mobile-menu"
         type="button"
-        class="
-          inline-flex
-          items-center
-          p-2
-          ml-3
-          text-sm text-gray-500
-          rounded-lg
-          md:hidden
-          hover:bg-gray-100
-          focus:outline-none focus:ring-2 focus:ring-gray-200
-          dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600
-        "
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="mobile-menu-2"
         aria-expanded="false"
         @click="showNav = !showNav"
@@ -79,34 +54,13 @@
         :class="{ hidden: showNav }"
       >
         <ul
-          class="
-            flex flex-col
-            mt-4
-            md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium
-          "
+          class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
         >
           <li>
             <router-link to="/">
               <a
                 href="#"
-                class="
-                  block
-                  py-2
-                  pr-4
-                  pl-3
-                  text-gray-700
-                  border-b border-gray-100
-                  hover:bg-gray-50
-                  md:hover:bg-transparent
-                  md:border-0
-                  md:hover:text-blue-700
-                  md:p-0
-                  dark:text-gray-400
-                  md:dark:hover:text-white
-                  dark:hover:bg-gray-700 dark:hover:text-white
-                  md:dark:hover:bg-transparent
-                  dark:border-gray-700
-                "
+                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 :class="{ 'text-blue-700': currentRoute == 'Home' }"
                 aria-current="page"
                 >Home</a
@@ -117,24 +71,7 @@
             <router-link to="/about">
               <a
                 href="#"
-                class="
-                  block
-                  py-2
-                  pr-4
-                  pl-3
-                  text-gray-700
-                  border-b border-gray-100
-                  hover:bg-gray-50
-                  md:hover:bg-transparent
-                  md:border-0
-                  md:hover:text-blue-700
-                  md:p-0
-                  dark:text-gray-400
-                  md:dark:hover:text-white
-                  dark:hover:bg-gray-700 dark:hover:text-white
-                  md:dark:hover:bg-transparent
-                  dark:border-gray-700
-                "
+                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 :class="{ 'text-blue-700': currentRoute == 'About' }"
                 >About</a
               ></router-link
@@ -143,24 +80,7 @@
           <li>
             <a
               href="#"
-              class="
-                block
-                py-2
-                pr-4
-                pl-3
-                text-gray-700
-                border-b border-gray-100
-                hover:bg-gray-50
-                md:hover:bg-transparent
-                md:border-0
-                md:hover:text-blue-700
-                md:p-0
-                dark:text-gray-400
-                md:dark:hover:text-white
-                dark:hover:bg-gray-700 dark:hover:text-white
-                md:dark:hover:bg-transparent
-                dark:border-gray-700
-              "
+              class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >Services</a
             >
           </li>
@@ -168,22 +88,7 @@
             <router-link to="/contact">
               <a
                 href="#"
-                class="
-                  block
-                  py-2
-                  pr-4
-                  pl-3
-                  text-gray-700
-                  hover:bg-gray-50
-                  md:hover:bg-transparent
-                  md:border-0
-                  md:hover:text-blue-700
-                  md:p-0
-                  dark:text-gray-400
-                  md:dark:hover:text-white
-                  dark:hover:bg-gray-700 dark:hover:text-white
-                  md:dark:hover:bg-transparent
-                "
+                class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 :class="{ 'text-blue-700': currentRoute == 'Contact' }"
                 >Contact</a
               ></router-link

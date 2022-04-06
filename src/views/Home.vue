@@ -3,13 +3,7 @@
     <Navigation />
     <section class="h-full relative overflow-hidden">
       <img
-        class="
-          object-cover
-          h-screen
-          w-screen
-          lg:h-96 lg:object-cover
-          md:object-cover md:h-96
-        "
+        class="object-cover h-screen w-screen lg:h-96 lg:object-cover md:object-cover md:h-96"
         src="../assets/img/bg.jpg"
         alt="img"
       />
@@ -30,21 +24,14 @@
       </div>
     </section>
     <div class="w-full bg-white">
-      <h1 class="text-gray-900 text-3xl mt-10 mb-5 w-full font-semibold mx-auto text-center">
+      <h1
+        class="text-gray-900 text-3xl mt-10 mb-5 w-full font-semibold mx-auto text-center"
+      >
         Articles for you
       </h1>
       <div class="grid grid-flow-row md:grid-cols-2 lg:grid-cols-3 px-24 pb-10">
         <div
-          class="
-            max-w-sm
-            bg-white
-            rounded-lg
-            border border-gray-200
-            shadow-md
-            dark:bg-gray-800 dark:border-gray-700
-            mx-2
-            my-2
-          "
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice.jpg" alt="" />
@@ -52,37 +39,21 @@
           <div class="p-5">
             <a href="#">
               <h5
-                class="
-                  mb-2
-                  text-2xl
-                  font-bold
-                  tracking-tight
-                  text-gray-900
-                  dark:text-white
-                "
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Noteworthy technology acquisitions 2021
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged.
             </p>
             <a
               href="#"
-              class="
-                inline-flex
-                items-center
-                py-2
-                px-3
-                text-sm
-                font-medium
-                text-center text-white
-                bg-blue-700
-                rounded-lg
-                hover:bg-blue-800
-                focus:ring-4 focus:outline-none focus:ring-blue-300
-                dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-              "
+              class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
               <svg
@@ -101,16 +72,7 @@
           </div>
         </div>
         <div
-          class="
-            max-w-sm
-            bg-white
-            rounded-lg
-            border border-gray-200
-            shadow-md
-            dark:bg-gray-800 dark:border-gray-700
-            mx-2
-            my-2
-          "
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice2.jpg" alt="" />
@@ -118,37 +80,21 @@
           <div class="p-5">
             <a href="#">
               <h5
-                class="
-                  mb-2
-                  text-2xl
-                  font-bold
-                  tracking-tight
-                  text-gray-900
-                  dark:text-white
-                "
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Noteworthy technology acquisitions 2021
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged.
             </p>
             <a
               href="#"
-              class="
-                inline-flex
-                items-center
-                py-2
-                px-3
-                text-sm
-                font-medium
-                text-center text-white
-                bg-blue-700
-                rounded-lg
-                hover:bg-blue-800
-                focus:ring-4 focus:outline-none focus:ring-blue-300
-                dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-              "
+              class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
               <svg
@@ -167,16 +113,7 @@
           </div>
         </div>
         <div
-          class="
-            max-w-sm
-            bg-white
-            rounded-lg
-            border border-gray-200
-            shadow-md
-            dark:bg-gray-800 dark:border-gray-700
-            mx-2
-            my-2
-          "
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice.jpg" alt="" />
@@ -184,37 +121,21 @@
           <div class="p-5">
             <a href="#">
               <h5
-                class="
-                  mb-2
-                  text-2xl
-                  font-bold
-                  tracking-tight
-                  text-gray-900
-                  dark:text-white
-                "
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Noteworthy technology acquisitions 2021
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged.
             </p>
             <a
               href="#"
-              class="
-                inline-flex
-                items-center
-                py-2
-                px-3
-                text-sm
-                font-medium
-                text-center text-white
-                bg-blue-700
-                rounded-lg
-                hover:bg-blue-800
-                focus:ring-4 focus:outline-none focus:ring-blue-300
-                dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-              "
+              class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
               <svg
@@ -233,16 +154,7 @@
           </div>
         </div>
         <div
-          class="
-            max-w-sm
-            bg-white
-            rounded-lg
-            border border-gray-200
-            shadow-md
-            dark:bg-gray-800 dark:border-gray-700
-            mx-2
-            my-2
-          "
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice3.jpg" alt="" />
@@ -250,37 +162,21 @@
           <div class="p-5">
             <a href="#">
               <h5
-                class="
-                  mb-2
-                  text-2xl
-                  font-bold
-                  tracking-tight
-                  text-gray-900
-                  dark:text-white
-                "
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Noteworthy technology acquisitions 2021
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged.
             </p>
             <a
               href="#"
-              class="
-                inline-flex
-                items-center
-                py-2
-                px-3
-                text-sm
-                font-medium
-                text-center text-white
-                bg-blue-700
-                rounded-lg
-                hover:bg-blue-800
-                focus:ring-4 focus:outline-none focus:ring-blue-300
-                dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-              "
+              class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
               <svg
@@ -299,16 +195,7 @@
           </div>
         </div>
         <div
-          class="
-            max-w-sm
-            bg-white
-            rounded-lg
-            border border-gray-200
-            shadow-md
-            dark:bg-gray-800 dark:border-gray-700
-            mx-2
-            my-2
-          "
+          class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-2 my-2"
         >
           <a href="#">
             <img class="rounded-t-lg" src="../assets/img/rice5.jpg" alt="" />
@@ -316,37 +203,21 @@
           <div class="p-5">
             <a href="#">
               <h5
-                class="
-                  mb-2
-                  text-2xl
-                  font-bold
-                  tracking-tight
-                  text-gray-900
-                  dark:text-white
-                "
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Noteworthy technology acquisitions 2021
               </h5>
             </a>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              Lorem Ipsum has been the industry's standard dummy text ever since
+              the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not
+              only five centuries, but also the leap into electronic
+              typesetting, remaining essentially unchanged.
             </p>
             <a
               href="#"
-              class="
-                inline-flex
-                items-center
-                py-2
-                px-3
-                text-sm
-                font-medium
-                text-center text-white
-                bg-blue-700
-                rounded-lg
-                hover:bg-blue-800
-                focus:ring-4 focus:outline-none focus:ring-blue-300
-                dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
-              "
+              class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read more
               <svg
