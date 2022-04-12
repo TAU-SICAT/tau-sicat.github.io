@@ -117,10 +117,10 @@
             Useful links
           </h6>
           <p class="mb-4">
-            <a href="#!" class="text-gray-600">About</a>
+            <a href="#!" class="text-gray-600"><router-link to="/about">About</router-link></a>
           </p>
           <p class="mb-4">
-            <a href="#!" class="text-gray-600">Contact</a>
+            <a href="#!" class="text-gray-600"><router-link to="/contact">Contact</router-link></a>
           </p>
           <p>
             <a href="#!" class="text-gray-600">Help</a>

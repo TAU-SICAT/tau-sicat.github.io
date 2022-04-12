@@ -25,7 +25,7 @@
     </section>
     <div class="w-full bg-white">
       <h1
-        class="text-gray-900 text-3xl mt-10 mb-5 w-full font-semibold mx-auto text-center"
+        class="text-gray-700 text-3xl mt-10 mb-5 w-full font-semibold mx-auto text-center"
       >
         Articles for you
       </h1>
