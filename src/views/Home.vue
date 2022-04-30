@@ -7,8 +7,12 @@
         src="../assets/img/bg.jpg"
         alt="img"
       />
-      <div class="absolute top-0 left-0 border h-full w-full px-12 py-52 lg:px-40 md:px-32 lg:py-24">
-        <h1 class="text-5xl lg:text-4xl text-white font-semibold py-1">Project SICAT</h1>
+      <div
+        class="absolute top-0 left-0 border h-full w-full px-12 py-52 lg:px-40 md:px-32 lg:py-24"
+      >
+        <h1 class="text-5xl lg:text-4xl text-white font-semibold py-1">
+          Project SICAT
+        </h1>
         <h1 class="text-xl lg:text-lg text-white font-semibold py-1">
           Satellite-Imagery Crop Monitoring and Forecasting Systems for
           Agriculture and Technology
