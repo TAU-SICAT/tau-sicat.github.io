@@ -1,19 +1,6 @@
 <template>
   <div
-    class="
-      absolute
-      align-middle
-      left-1/2
-      top-1/2
-      transform
-      -translate-x-1/2 -translate-y-1/2
-      flex
-      items-center
-      justify-center
-      min-h-screen
-      bg-transparent
-      z-20
-    "
+    class="absolute align-middle left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center min-h-screen bg-transparent z-20"
   >
     <div class="px-8 py-6 mt-4 text-left bg-white shadow-lg rounded-md">
       <div class="flex justify-center">
@@ -33,15 +20,7 @@
             <input
               type="text"
               placeholder="Email"
-              class="
-                w-full
-                px-4
-                py-2
-                mt-2
-                border
-                rounded-md
-                focus:outline-none focus:ring-1 focus:ring-blue-600
-              "
+              class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
             />
             <span class="text-xs tracking-wide text-red-600"
               >Email field is required
@@ -52,15 +31,7 @@
             <input
               type="text"
               placeholder="Email"
-              class="
-                w-full
-                px-4
-                py-2
-                mt-2
-                border
-                rounded-md
-                focus:outline-none focus:ring-1 focus:ring-blue-600
-              "
+              class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
             />
           </div>
           <div class="mt-4">
@@ -68,59 +39,26 @@
             <input
               type="password"
               placeholder="Password"
-              class="
-                w-full
-                px-4
-                py-2
-                mt-2
-                border
-                rounded-md
-                focus:outline-none focus:ring-1 focus:ring-blue-600
-              "
+              class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
             />
           </div>
-                    <div class="mt-4">
+          <div class="mt-4">
             <label class="block">Confirm Password</label>
             <input
               type="password"
               placeholder="Password"
-              class="
-                w-full
-                px-4
-                py-2
-                mt-2
-                border
-                rounded-md
-                focus:outline-none focus:ring-1 focus:ring-blue-600
-              "
+              class="w-full px-4 py-2 mt-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
             />
           </div>
           <div class="flex items-baseline justify-between">
             <button
-              class="
-                px-6
-                py-2
-                mt-4
-                mx-2
-                text-white
-                bg-blue-600
-                rounded-lg
-                hover:bg-blue-900
-              "
+              class="px-6 py-2 mt-4 mx-2 text-white bg-blue-600 rounded-lg hover:bg-blue-900"
             >
               Create Account
             </button>
             <a
               href="#"
-              class="
-                px-6
-                py-2
-                mt-4
-                text-white
-                bg-green-600
-                rounded-lg
-                hover:bg-green-900
-              "
+              class="px-6 py-2 mt-4 text-white bg-green-600 rounded-lg hover:bg-green-900"
               type="none"
             >
               Login instead?

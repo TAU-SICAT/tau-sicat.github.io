@@ -72,6 +72,7 @@ import tarlacCT from "@/data/tarlacCT.json";
 import victoria from "@/data/victoria.json";
 import samclemBigBlock from "@/data/sanclem/samplebigblock.json";
 import samclemSmallBlock from "@/data/sanclem/samplesmallblock.json";
+import sample from "@/data/sanclem/sanclem-sample.json";
 
 export default {
   name: "Portal",
@@ -166,6 +167,10 @@ export default {
         .on("click", this.onSanClemBlock1Click);
 
       L.geoJSON(samclemSmallBlock, {})
+        .addTo(this.mapDiv2)
+        .on("click", this.onSanClemBlock2Click);
+
+      L.geoJSON(sample, {})
         .addTo(this.mapDiv2)
         .on("click", this.onSanClemBlock2Click);
     },

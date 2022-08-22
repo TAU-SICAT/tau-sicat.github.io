@@ -98,7 +98,9 @@
             Services
           </h6>
           <p class="mb-4">
-            <a href="#!" class="text-gray-600">Service 1</a>
+            <router-link to="/portal">
+              <a href="#!" class="text-gray-600">Portal</a>
+            </router-link>
           </p>
           <p class="mb-4">
             <a href="#!" class="text-gray-600">Service 2</a>
