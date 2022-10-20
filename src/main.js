@@ -6,6 +6,7 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import "./assets/sass/index.scss";
+import axios from "axios";
 
 // createApp(App).use(VueAnimXyz).use(store).use(router).mount("#app");
 
@@ -14,3 +15,5 @@ app.use(VueAnimXyz);
 app.use(store);
 app.use(router);
 app.mount("#app");
+
+app.prototype.$http = axios;

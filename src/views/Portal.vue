@@ -70,9 +70,16 @@ import sanmanuel from "@/data/sanmanuel.json";
 import sanjose from "@/data/sanjose.json";
 import tarlacCT from "@/data/tarlacCT.json";
 import victoria from "@/data/victoria.json";
-import samclemBigBlock from "@/data/sanclem/samplebigblock.json";
-import samclemSmallBlock from "@/data/sanclem/samplesmallblock.json";
-import sample from "@/data/sanclem/sanclem-sample.json";
+import block1 from "@/data/sanclem/block1.json";
+import block2 from "@/data/sanclem/block2.json";
+import block3 from "@/data/sanclem/block3.json";
+import block4 from "@/data/sanclem/block4.json";
+import block5 from "@/data/sanclem/block5.json";
+import block6 from "@/data/sanclem/block6.json";
+import block7 from "@/data/sanclem/block7.json";
+import block8 from "@/data/sanclem/block8.json";
+import block9 from "@/data/sanclem/block9.json";
+// import bambanForecast from "@/data/sanclem/bamban-forecast.json";
 
 export default {
   name: "Portal",
@@ -142,6 +149,15 @@ export default {
       this.onDivResize();
     },
 
+    onBlockClick: function (predictedYield, blockArea) {
+      alert("Hello" + predictedYield);
+      this.area = blockArea;
+      this.ndvi = 0.253;
+      this.forecast_yield = predictedYield;
+      this.isAreaClicked = true;
+      this.onDivResize();
+    },
+
     onDivResize: function () {
       window.setTimeout(function () {
         window.mapDiv2.invalidateSize();
@@ -153,6 +169,15 @@ export default {
     },
 
     onSanClementeClick: function () {
+      // for (let i = 0; i < bambanForecast.forecasts[0].length(); i++) {
+      //   console.log("Hi");
+      // }
+
+      // const test = bambanForecast.forecasts[0].area
+      // const len = bambanForecast.forecasts[0].yield
+      // console.log(test)
+      // console.log(len)
+
       this.mapDiv.off().remove();
       this.mapDiv2 = L.map("map").setView([15.7081, 120.3692], 13);
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -162,17 +187,41 @@ export default {
 
       L.geoJSON(sanclemente, {}).addTo(this.mapDiv2);
 
-      L.geoJSON(samclemBigBlock, {})
-        .addTo(this.mapDiv2)
-        .on("click", this.onSanClemBlock1Click);
-
-      L.geoJSON(samclemSmallBlock, {})
+      L.geoJSON(block1, {})
         .addTo(this.mapDiv2)
         .on("click", this.onSanClemBlock2Click);
 
-      L.geoJSON(sample, {})
+      L.geoJSON(block2, {})
         .addTo(this.mapDiv2)
         .on("click", this.onSanClemBlock2Click);
+
+      L.geoJSON(block3, {})
+        .addTo(this.mapDiv2)
+        .on("click", this.onSanClemBlock2Click);
+
+      L.geoJSON(block4, {})
+        .addTo(this.mapDiv2)
+        .on("click", this.onSanClemBlock2Click);
+
+      L.geoJSON(block5, {})
+        .addTo(this.mapDiv2)
+        .on("click", this.onSanClemBlock2Click);
+
+      L.geoJSON(block6, {})
+        .addTo(this.mapDiv2)
+        .on("click", this.onSanClemBlock2Click);
+
+      L.geoJSON(block7, {})
+        .addTo(this.mapDiv2)
+        .on("click", this.onSanClemBlock2Click);
+
+      L.geoJSON(block8, {})
+        .addTo(this.mapDiv2)
+        .on("click", this.onSanClemBlock2Click);
+
+      L.geoJSON(block9, {})
+        .addTo(this.mapDiv2)
+        .on("click", this.onBlockClick.bind(10, 20));
     },
   },
   mounted() {
