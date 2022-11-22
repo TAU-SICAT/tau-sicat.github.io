@@ -60,26 +60,10 @@
               <SatelliteTab />
             </div>
             <div v-bind:class="{ hidden: openTab !== 2, block: openTab === 2 }">
-              <p>
-                Completely synergize resource taxing relationships via premier
-                niche markets. Professionally cultivate one-to-one customer
-                service with robust ideas.
-                <br />
-                <br />
-                Dynamically innovate resource-leveling customer service for
-                state of the art customer service.
-              </p>
+              <YieldPredictionTab />
             </div>
             <div v-bind:class="{ hidden: openTab !== 3, block: openTab === 3 }">
-              <p>
-                Efficiently unleash cross-media information without cross-media
-                value. Quickly maximize timely deliverables for real-time
-                schemas.
-                <br />
-                <br />
-                Dramatically maintain clicks-and-mortar solutions without
-                functional solutions.
-              </p>
+              <ArticleTab />
             </div>
             <div v-bind:class="{ hidden: openTab !== 4, block: openTab === 4 }">
               <p>
@@ -101,10 +85,14 @@
 
 <script>
 import SatelliteTab from "@/components/SatelliteTab.vue";
+import YieldPredictionTab from "@/components/YieldPredictionTab.vue";
+import ArticleTab from "@/components/ArticleTab.vue";
 export default {
   name: "pink-tabs",
   components: {
     SatelliteTab,
+    YieldPredictionTab,
+    ArticleTab,
   },
   data() {
     return {
